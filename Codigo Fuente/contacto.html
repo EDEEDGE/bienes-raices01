@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contacto - Bienes Raíces</title>
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/estilocontacto.css">
+    </head>
+    
+<body>
+
+    <nav class="navegacion">
+        <h1 class="titulo-nav">BIENESRAICES</h1>
+        <div class="enlaces-nav">
+            <a href="index.html">Inicio</a>
+            <a href="nosotros.html">Sobre Nosotros</a>
+            <a href="anuncios.html">Anuncios</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </nav>
+
+    <!-- Imagen de fondo -->
+    <div class="imagen-contacto" style="background-image: url('../img/destacada3.jpg');">
+        <div class="contenido-contacto">
+            <h3>¡Estamos aquí para ayudarte!</h3>
+        </div>
+    </div>
+
+    <section class="contenedor seccion">
+        <div class="formulario-contenedor">
+            <h3>Información Personal</h3>
+            <form>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" required>
+    
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" required>
+    
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" required>
+    
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" required></textarea>
+            </form>
+        </div>
+    
+        <div class="formulario-contenedor">
+            <h3>Información Sobre Personal</h3>
+            <form>
+                <label for="tipo-accion">¿Vende o compra?</label>
+                <select id="tipo-accion" required>
+                    <option value="vender">Vender</option>
+                    <option value="comprar">Comprar</option>
+                </select>
+    
+                <label for="presupuesto">Presupuesto:</label>
+                <input type="text" id="presupuesto" required>
+            </form>
+        </div>
+    
+        <div class="formulario-contenedor">
+            <h3>Formulario de Contacto</h3>
+            <form>
+                <label>Contacto Preferido:</label>
+                <input type="radio" id="telefono-contacto" name="contacto-preferido" value="telefono" required>
+                <label for="telefono-contacto">Teléfono</label>
+                <input type="radio" id="correo-contacto" name="contacto-preferido" value="correo" required>
+                <label for="correo-contacto">Correo</label>
+    
+                <label for="fecha">Fecha:</label>
+                <input type="date" id="fecha" required>
+    
+                <label for="hora">Hora:</label>
+                <input type="time" id="hora" required>
+            </form>
+        </div>
+    </section>
+
+    <!-- Pie de página -->
+    <footer class="site-footer">
+        <p>&copy; 2024 Bienes Raíces. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.site-header {
+    background: #2b2b2b;
+    color: white;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 0;
+}
+
+.navegacion a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.entrada-blog {
+    display: flex;
+    margin-bottom: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.entrada-blog .imagen img {
+    width: 200px;
+    height: auto;
+}
+
+.texto-entrada {
+    padding: 20px;
+}
+
+.texto-entrada h4 {
+    margin: 0;
+}
+
+.info-meta {
+    color: #777; /* Color anterior para la fecha y admin */
+    font-size: 0.9em;
+}
+
+.barra-separadora {
+    height: 2px;
+    background: #ccc; /* Color de la barra separadora */
+    margin: 10px 0;
+}
+
+.site-footer {
+    background: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}

@@ -1,0 +1,101 @@
+
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navegacion {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navegacion h1 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.navegacion a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
+
+.navegacion a:hover {
+    color: #71B100;
+}
+
+.imagen-contacto {
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+.contenido-contacto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario-contenedor {
+    background: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 2rem;
+    margin: 1rem 0;
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario-contenedor h3 {
+    margin-bottom: 1rem;
+}
+
+label {
+    margin: 0.5rem 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.site-footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

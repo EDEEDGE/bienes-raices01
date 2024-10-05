@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.site-header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header h1 {
+    color: #fff;
+    font-size: 2.5rem;
+    text-align: left;
+}
+
+.navegacion {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navegacion a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navegacion a:hover {
+    color: #ffa500;
+}
+
+.contenedor h2 {
+    margin: 20px 0;
+    text-align: left;
+    font-size: 2rem;
+}
+
+.contenido-sobre-nosotros {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.imagen-referencia {
+    width: 300px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.texto-sobre-nosotros {
+    flex: 1;
+}
+
+.texto-sobre-nosotros h3 {
+    font-size: 1.5rem;
+}
+
+.texto-sobre-nosotros p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.mas-sobre-nosotros {
+    margin-top: 40px;
+}
+
+.caracteristicas {
+    display: flex;
+    justify-content: space-between;
+}
+
+.caracteristica {
+    text-align: center;
+    flex: 1;
+    margin: 0 10px;
+}
+
+.icono-caracteristica {
+    width: 80px;
+    height: auto;
+}
+
+.caracteristica h3 {
+    font-size: 1.2rem;
+}
+
+.caracteristica p {
+    font-size: 0.9rem;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.copyright {
+    margin: 0;
+}
